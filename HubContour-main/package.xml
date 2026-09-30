@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>HubContour</name>
+  <description>2D hub contouring overlay for jet engine vortex reduction bumps. 
+Select any edge, right-click → Open in Contour Tool.</description>
+  <version>1.0.0</version>
+  <maintainer email="">HubContour</maintainer>
+  <license>MIT</license>
+  <freecadmin>0.20</freecadmin>
+  <content>
+    <workbench>
+      <classname>HubContourWorkbench</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+</package>
